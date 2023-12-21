@@ -12,7 +12,7 @@ public class HelloWorldController {
     @GetMapping("/hello")
     public String hello() {
         System.out.println("Entrada");
-        String output = "Hello, World!";
+        String output = "Hello, Papa Noel!";
         System.out.println("Salida: " + output);
         return output;
     }
